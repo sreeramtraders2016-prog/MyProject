@@ -1,0 +1,12 @@
+[
+  {"name": "ACCT_INVST_NUM", "type": "STRING", "mode": "NULLABLE"},
+  {"name": "GRP_MEMBER_CDE", "type": "STRING", "mode": "NULLABLE"},
+  {"name": "CTRY_CDE", "type": "STRING", "mode": "NULLABLE"},
+  {"name": "CE_INCM_CASH_ACCT_TYPE", "type": "STRING", "mode": "NULLABLE"},
+  {"name": "CE_INCM_CASH_ACCT_CCY_CDE", "type": "STRING", "mode": "NULLABLE"},
+  {"name": "CE_INCM_CASH_ACCT", "type": "STRING", "mode": "NULLABLE"},
+  {"name": "LAST_INGESTION_TIMESTAMP", "type": "STRING", "mode": "NULLABLE"},
+  {"name": "PRM_LNE_OF_BUS_CDE_FILTER", "type": "STRING", "mode": "NULLABLE"},
+  {"name": "CTRY_CDE_FILTER", "type": "STRING", "mode": "NULLABLE"},
+  {"name": "ENTITY_CDE_FILTER", "type": "STRING", "mode": "NULLABLE"}
+]

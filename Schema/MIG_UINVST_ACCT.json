@@ -1,0 +1,12 @@
+[
+  {"name": "ACCT_EXTNL_NUM", "type": "STRING", "mode": "NULLABLE"},
+  {"name": "SYS_EXTNL_CDE", "type": "STRING", "mode": "NULLABLE"},
+  {"name": "CTRY_INVST_ACCT_CDE", "type": "STRING", "mode": "NULLABLE"},
+  {"name": "GRP_MEMBR_INVST_ACCT_CDE", "type": "STRING", "mode": "NULLABLE"},
+  {"name": "SRCE_SYS_NAME", "type": "STRING", "mode": "NULLABLE"},
+  {"name": "ACCT_MIG_FUND_IND", "type": "STRING", "mode": "NULLABLE"},
+  {"name": "LAST_INGESTION_TIMESTAMP", "type": "STRING", "mode": "NULLABLE"},
+  {"name": "PRM_LNE_OF_BUS_CDE_FILTER", "type": "STRING", "mode": "NULLABLE"},
+  {"name": "CTRY_CDE_FILTER", "type": "STRING", "mode": "NULLABLE"},
+  {"name": "ENTITY_CDE_FILTER", "type": "STRING", "mode": "NULLABLE"}
+]

@@ -1,0 +1,11 @@
+[
+  {"name": "FUND_CASH_ACCT_SEQ", "type": "STRING", "mode": "NULLABLE"},
+  {"name": "INVST_PLAN_ARR_SEQ", "type": "STRING", "mode": "NULLABLE"},
+  {"name": "ACCT_CASH_FUND", "type": "STRING", "mode": "NULLABLE"},
+  {"name": "ACCT_CASH_FUND_TYPE_CDE", "type": "STRING", "mode": "NULLABLE"},
+  {"name": "CCY_ACCT_CASH_FUND_CDE", "type": "STRING", "mode": "NULLABLE"},
+  {"name": "LAST_INGESTION_TIMESTAMP", "type": "STRING", "mode": "NULLABLE"},
+  {"name": "PRM_LNE_OF_BUS_CDE_FILTER", "type": "STRING", "mode": "NULLABLE"},
+  {"name": "CTRY_CDE_FILTER", "type": "STRING", "mode": "NULLABLE"},
+  {"name": "ENTITY_CDE_FILTER", "type": "STRING", "mode": "NULLABLE"}
+]
