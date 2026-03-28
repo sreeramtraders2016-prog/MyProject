@@ -1,0 +1,12 @@
+INSERT INTO raw_srbp_sales_ds.audit_table
+(audit_id, source_file, target_table, records_ingested, records_failed, load_status, ingestion_timestamp, created_at)
+SELECT
+    GENERATE_UUID() AS audit_id,
+    'INVESTMENT_DATA.csv' AS source_file,
+    'raw_srbp_sales_ds.investment_data' AS target_table,
+    COUNT(*) AS records_ingested,
+    0 AS records_failed,
+    'SUCCESS' AS load_status,
+    CURRENT_TIMESTAMP() AS ingestion_timestamp,
+    CURRENT_TIMESTAMP() AS created_at
+FROM `raw_srbp_sales_ds.INVESTMENT_DATA`;
